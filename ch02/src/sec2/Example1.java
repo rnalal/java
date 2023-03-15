@@ -1,0 +1,22 @@
+package sec2;
+
+public class Example1 {
+
+	public static void main(String[] args) {
+		//자동 형변환(자료형이 자동으로 변환됨) = auto casting = promotion
+		//프로그램에서 크기(용량)가 작은 자료형의 데이터를 큰 자료형에 대입하거나 계산되어 입력될때 발생
+		byte a = 120; //1byte
+		short b = a;  //2byte
+		
+		char c = 'B';
+		int d = c;
+		System.out.println("c="+c);
+		System.out.println("d="+d);
+		
+		//강제 형변환: 큰 자료형에서 작은 자료형으로 형 변환
+		byte e = (byte) c;
+		short f = 200;
+		byte g = (byte) f; //강제형변환2 (X)
+	}
+
+}
