@@ -4,7 +4,7 @@ public class Shape {
 	private int shapeType;		//0-원, 3-삼각형, 4-사각형
 	private int length;
 	private int height;
-	private int getShapeType() {
+	public int getShapeType() {
 		return shapeType;
 	}
 	public void setShapeType(int shapeType) {
@@ -26,7 +26,8 @@ public class Shape {
 	public void setHeight(int height) {
 		this.height = height;
 	}
-	public double calcArea(int length){
+	public double calcArea(int length){		//메소드 오버로딩: 메소드 이름과 반환타입이 같고,
+		//매개변수의 개수나 타입만 다르게 표현
 		return length*length*3.14;
 	}
 	public double calcArea(int length, int height){

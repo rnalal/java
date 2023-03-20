@@ -1,7 +1,6 @@
 package sec4;
 
 public class CalEx1 {
-
 	public static void main(String[] args) {
 		//Calculator는 객체 생성이 필요 없는 static으로만 구성되어 있어 객체 생성을 할 필요가 없음.
 		double circle_area = 10*10*Calculator.pi;

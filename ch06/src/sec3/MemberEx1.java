@@ -11,11 +11,13 @@ public class MemberEx1 {
 		mem1.setEmail("jjy@naver.com");
 		
 		
-		System.out.println("id :"+mem1.getId());
-		System.out.println("pw :"+mem1.getPw());
-		System.out.println("name :"+mem1.getName());
-		System.out.println("tel :"+mem1.getTel());
-		System.out.println("email :"+mem1.getEmail());
+		String str1 = mem1.toString();
+		System.out.println(mem1.toString());
+		System.out.println(str1);
+		
+		Member mem2 = new Member();
+		mem2 = mem1;
+		System.out.println(mem2.toString());
 		
 	}
 

@@ -9,7 +9,7 @@ public class Student {
 	private int tot;
 	private double avg;
 	
-	public Student() { this("무명학생"); }	//public 생성자명([매개변수타입 매개변수명]) { 실행내용; }
+	public Student() { this("무명학생"); }	//public 생성자명([매개변수타입 매개변수명]) { 실행문; }
 	public Student(String name) { this(name, 42); }
 	public Student(String name, int age) { this(name, age, 50); }
 	public Student(String name, int age, int pg) { this(name, age, pg, 40); }

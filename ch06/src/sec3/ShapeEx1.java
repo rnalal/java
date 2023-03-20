@@ -3,7 +3,7 @@ package sec3;
 public class ShapeEx1 {
 	public static void main(String[] args) {
 		Shape s1 = new Shape();
-		s1.setShapeType(0);
+		s1.setShapeType(0);		//0,3,4
 		double res1 = s1.calcArea(20);
 		System.out.println("반지름이 20인 원의 넓이 : "+res1);
 		s1.setShapeType(3);
