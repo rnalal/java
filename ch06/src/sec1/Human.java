@@ -15,6 +15,8 @@ public class Human {
 	//[접근제한자] 함수명([매개변수타입 매개변수명,...]) { }
 	//2. 멤버 메소드: 기능 구현하거나 동작을 시키기 위한 멤버
 	//[접근제한자] 반환타입 메서드명([메개변수타입 메개변수명]) { }
+	public Human()	{}
+	
 	public String getName() {		//멤버 메소드(getter/setter)
 		return name;
 	}
