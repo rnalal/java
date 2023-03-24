@@ -1,13 +1,16 @@
-package sec3;
+package dto;
 
 public class Member {
 	private String id;
 	private String pw;
 	private String name;
-	private String tel;
-	private String email;
+	private int age;
+	
 	public String getId() {
 		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
 	}
 	public String getPw() {
 		return pw;
@@ -21,22 +24,16 @@ public class Member {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getTel() {
-		return tel;
+	public int getAge() {
+		return age;
 	}
-	public void setTel(String tel) {
-		this.tel = tel;
+	public void setAge(int age) {
+		this.age = age;
 	}
-	public String getEmail() {
-		return email;
+	@Override
+	public String toString() {
+		return "Member [id=" + id + ", pw=" + pw + ", name=" + name + ", age="
+				+ age + "]";
 	}
-	public void setEmail(String email) {
-		this.email = email;
-	}
-	public void setId(String id) {
-		this.id = id;
-	}
-	
-
 	
 }
