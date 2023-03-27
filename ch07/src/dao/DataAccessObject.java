@@ -1,4 +1,4 @@
-package dao;
+ package dao;
 
 public interface DataAccessObject {
 	public void select();
