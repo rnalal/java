@@ -15,7 +15,7 @@ public class HomeEx {
 			}
 			@Override
 			public void turnOff() {
-				System.out.println("난방을 끕니다.+++++");
+				System.out.println("난방을 끕니다.");
 			}			
 		});
 	}
