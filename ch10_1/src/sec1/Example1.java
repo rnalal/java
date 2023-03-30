@@ -1,4 +1,4 @@
-package sec1;
+/*package sec1;
 
 public class Example1 {
 	public static void main(String[] args) {
@@ -9,3 +9,4 @@ public class Example1 {
 	}
 
 }
+*/
